@@ -1,0 +1,4 @@
+[submodule "approve-code-webapp"]
+	path = approve-code-webapp
+	url = git@github.com:approve-code/approve-code-webapp.git
+	branch = master
