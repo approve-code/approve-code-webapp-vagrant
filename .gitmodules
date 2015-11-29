@@ -1,0 +1,6 @@
+[submodule "approve-code-webhooker"]
+	path = approve-code-webhooker
+	url = https://github.com/approve-code/approve-code-webhooker.git
+[submodule "approve-code-webapp"]
+	path = approve-code-webapp
+	url = https://github.com/approve-code/approve-code-webapp.git
