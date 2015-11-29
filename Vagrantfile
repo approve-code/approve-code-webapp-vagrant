@@ -18,4 +18,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, path: "shell/mysql.sh"
   config.vm.provision :shell, path: "shell/webapp.sh"
   config.vm.provision :shell, path: "shell/webhooker.sh"
+  config.vm.provision :shell, path: "shell/ngrok.sh"
 end
