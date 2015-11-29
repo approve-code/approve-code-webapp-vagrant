@@ -1,7 +1,5 @@
 #!/bin/sh
-cd /vagrant
-git clone https://github.com/approve-code/approve-code-webapp.git
-cd approve-code-webapp
+cd /vagrant/approve-code-webapp
 composer install
 bower install --allow-root
 app/console doctrine:database:create
